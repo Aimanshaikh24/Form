@@ -1,1 +1,101 @@
-
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Alkatra','cursive';
+      }
+      body {
+        background-image: url(https://c0.wallpaperflare.com/preview/761/279/828/arrows-blur-buttons-close-up.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+      .container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .form{
+        background-color: #ebeef1;
+        height: 80%;
+        width: 50%;
+        border-radius: 30px;
+        
+      }
+      #user{
+        color: white;
+        border: 2px solid white ;
+        width: 100px;
+        height: 100px;
+        font-size: 70px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 10px;
+        position: relative;
+        bottom: 50px;
+        left: 200px;
+        box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.50);
+        background-color: lightseagreen;
+      }
+      input{
+        display: block;
+        width: 250px;
+        height: 35px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: 1px solid gray;
+        margin-left: 140px;
+        margin-bottom: 35px;
+        box-shadow: 10px 10px 10px -1px rgba(10, green, blue, 0.20);
+      }
+      :placeholder-shown{
+        font-size: 18px;
+      }
+      button{
+        height: 50px;
+            font-size: 25px;
+            font-weight: 500;
+            margin-left: 200px;
+            width: 110px;
+            background: #ebeef1;
+            cursor: pointer;
+            border: none;
+            border-radius: 50px;
+            color:lightseagreen;
+            box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                        -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+        }
+        button:hover{
+          box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                        inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+        }
+        p{
+          margin-left: 180px;
+          margin-top: 35px;
+        }
+        span{
+          color: blue;
+          text-decoration: underline;
+          cursor: pointer;
+          margin-left: 50px;
+        }
+        #icon{
+          position: relative;
+          top: 50px;
+          left: 10px;
+        }
+        #iccon{
+          position: relative;
+          top: 29px;
+          left: 113px;
+        }
+        #f{
+          color: blue;
+          text-decoration: underline;
+          cursor: pointer;
+          margin-right: 110px;
+          text-align: right;
+        }
